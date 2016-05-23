@@ -249,20 +249,26 @@ sudo cat /var/log/httpd/error_log
 * *When using Instant Client 11g, PHP OCI8 connects to all editions of Oracle 9.2, 10.x, and 11.x databases.*
 * http://www.oracle.com/technetwork/articles/dsl/technote-php-instant-084410.html
 
-##### Connect to the XE service (i.e. database) on the "localhost" machine using Easy Connect syntax
+##### Connect to the system schema on localhost using Easy Connect syntax
 ```php
 <?php
 
-// Connects to the XE service (i.e. database) on the "localhost" machine
-$conn = oci_connect('hr', 'welcome', 'localhost/XE');
+// Create the connection
+$conn = oci_connect('system', 'password', 'localhost/XE');
+
+// Test the connection
 if (!$conn) {
     $e = oci_error();
     trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);
 }
 
-$stid = oci_parse($conn, 'SELECT * FROM employees');
+// Create a query
+$stid = oci_parse($conn, 'SELECT * FROM help');
+
+// Execute the query
 oci_execute($stid);
 
+// Print the results of the query
 echo "<table border='1'>\n";
 while ($row = oci_fetch_array($stid, OCI_ASSOC+OCI_RETURN_NULLS)) {
     echo "<tr>\n";
