@@ -8,6 +8,7 @@
 * http://php.net/manual/en/function.oci-connect.php
 * http://www.oracle.com/technetwork/articles/dsl/technote-php-instant-084410.html
 * http://www.hexblot.com/blog/making-connection-php-oracle-centos-64
+* https://moodle.org/mod/forum/discuss.php?d=324931
 
 ##### Install the Oracle Instant Client for Linux 
 * https://github.com/bachmeb/oracle-admin/blob/master/docs/oracle-instant-client.md
