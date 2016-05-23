@@ -203,6 +203,16 @@ You should add "extension=oci8.so" to php.ini
 */
 ```
 
+##### Find the php.ini file
+```
+sudo find / -name php.ini
+```
+```c
+/*
+/etc/php.ini
+*/
+```
+
 ##### Enable the PHP OCI8 Extension on Linux
 * *OCI8 is the PHP extension for connecting to Oracle Database. OCI8 is open source and included with PHP. The name is derived from Oracle's C "call interface" API first introduced in version 8 of Oracle Database. OCI8 links with Oracle client libraries, such as Oracle Instant Client.*
 * *Oracle Instant Client is a free set of easily installed libraries that allow programs to connect to local or remote Oracle Database instances. To use Instant Client an existing database is needed - Instant Client does not include one. Typically the database will be on another machine. If the database is local then Instant Client, although convenient and still usable, is generally not needed because OCI8 can directly use the database libraries.*
