@@ -15,7 +15,7 @@ nano /var/www/html/hello.php
 ```
 
 ##### Add markup language to the php file
-```php
+```html
 <html>
  <head>
   <title>PHP Test</title>
