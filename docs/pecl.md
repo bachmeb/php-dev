@@ -1,6 +1,10 @@
 # pecl
 
+* *PECL is a repository of PHP extensions that are made available to you via the » PEAR packaging system.* (http://au2.php.net/manual/en/install.pecl.intro.php)
+
 ## References
+* http://au2.php.net/manual/en/install.pecl.php
+* http://au2.php.net/manual/en/install.pecl.intro.php
 * https://moodle.org/mod/forum/discuss.php?d=324931
 * http://board.phpbuilder.com/showthread.php?10339128-RESOLVED-pecl-install-phpize-failed
 
