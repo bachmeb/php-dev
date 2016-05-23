@@ -10,6 +10,7 @@
 * http://www.hexblot.com/blog/making-connection-php-oracle-centos-64
 * https://moodle.org/mod/forum/discuss.php?d=324931
 * http://board.phpbuilder.com/showthread.php?10339128-RESOLVED-pecl-install-phpize-failed
+* https://pecl.php.net/package/oci8
 
 ##### Install the Oracle Instant Client for Linux 
 * https://github.com/bachmeb/oracle-admin/blob/master/docs/oracle-instant-client.md
