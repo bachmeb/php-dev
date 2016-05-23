@@ -7,6 +7,7 @@
 ## References
 * http://php.net/manual/en/function.oci-connect.php
 * http://www.oracle.com/technetwork/articles/dsl/technote-php-instant-084410.html
+* http://www.hexblot.com/blog/making-connection-php-oracle-centos-64
 
 ##### Install the Oracle Instant Client for Linux 
 * *OCI8 is the PHP extension for connecting to Oracle Database. OCI8 is open source and included with PHP. The name is derived from Oracle's C "call interface" API first introduced in version 8 of Oracle Database. OCI8 links with Oracle client libraries, such as Oracle Instant Client.*
@@ -14,8 +15,9 @@
 * *When using Instant Client 11g, PHP OCI8 connects to all editions of Oracle 9.2, 10.x, and 11.x databases.*
 * http://www.oracle.com/technetwork/articles/dsl/technote-php-instant-084410.html
 
+##### Enable the PHP OCI8 Extension on Linux
 
-##### Connects to the XE service (i.e. database) on the "localhost" machine using Easy Connect syntax
+##### Connect to the XE service (i.e. database) on the "localhost" machine using Easy Connect syntax
 ```php
 <?php
 
