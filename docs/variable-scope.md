@@ -11,4 +11,5 @@
 
 ##### Global
 * *In PHP global variables must be declared global inside a function if they are going to be used in that function.*
-* By declaring $a and $b global within the function, all references to either variable will refer to the global version. There is no limit to the number of global variables that can be manipulated by a function.
+* *By declaring a variable global within a function, all references to the variable will refer to the global version.* 
+* *There is no limit to the number of global variables that can be manipulated by a function.*
