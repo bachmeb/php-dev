@@ -19,3 +19,6 @@
 * *They cause the child process to simply connect only once for its entire lifespan, instead of every time it processes a page that requires connecting to the SQL server.*
 * *This means that for every child that opened a persistent connection will have its own open persistent connection to the server.*
 * *For example, if you had 20 different child processes that ran a script that made a persistent connection to your SQL server, you'd have 20 different connections to the SQL server, one from each child.*
+
+##### Can non-persistent connections be replaced with persistent connections?
+* *Persistent connections were designed to have one-to-one mapping to regular connections. That means that you should always be able to replace persistent connections with non-persistent connections, and it won't change the way your script behaves. It may (and probably will) change the efficiency of the script, but not its behavior!*
