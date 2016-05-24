@@ -4,7 +4,7 @@
 * http://php.net/manual/en/features.persistent-connections.php
 
 ##### What are persistent connections?
-* *Persistent connections are links that do not close when the execution of your script ends. When a persistent connection is requested, PHP checks if there's already an identical persistent connection (that remained open from earlier) - and if it exists, it uses it. If it does not exist, it creates the link. An 'identical' connection is a connection that was opened to the same host, with the same username and the same password (where applicable).* (http://php.net/manual/en/features.persistent-connections.php)
+* *Persistent connections are links that do not close when the execution of your script ends. When a persistent connection is requested, PHP checks if there's already an identical persistent connection (that remained open from earlier) - and if it exists, it uses it. If it does not exist, it creates the link. An 'identical' connection is a connection that was opened to the same host, with the same username and the same password (where applicable).*
 
 ##### How does a web server utilize PHP to generate web pages?
 * *There are three ways in which your web server can utilize PHP to generate web pages.*
