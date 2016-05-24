@@ -10,7 +10,7 @@
 * oci_client_version — Returns the Oracle client library version
 * oci_close — Closes an Oracle connection
 * oci_commit — Commits the outstanding database transaction
-* oci_connect — Connect to an Oracle database
+* [oci_connect](/docs/oci_connect.md) — Connect to an Oracle database
 * oci_define_by_name — Associates a PHP variable with a column for query fetches
 * oci_error — Returns the last error found
 * oci_execute — Executes a statement
