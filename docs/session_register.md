@@ -8,6 +8,6 @@
 * *For each name, session_register() registers the global variable with that name in the current session.*
 
 ##### Should session_register be used? 
-* *Use of session_register() is deprecated*
+* *This function has been DEPRECATED as of PHP 5.3.0 and REMOVED as of PHP 5.4.0.*
 * *Use of $_SESSION is preferred, as of PHP 4.1.0*
 * *The old way was to use $HTTP_SESSION_VARS*
