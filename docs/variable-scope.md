@@ -13,3 +13,5 @@
 * *In PHP global variables must be declared global inside a function if they are going to be used in that function.*
 * *By declaring a variable global within a function, all references to the variable will refer to the global version.* 
 * *There is no limit to the number of global variables that can be manipulated by a function.*
+* *Another way to access variables from the global scope is to use the special PHP-defined $GLOBALS array.*
+* *The $GLOBALS array is an associative array with the name of the global variable being the key and the contents of that variable being the value of the array element.*
