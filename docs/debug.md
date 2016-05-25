@@ -6,6 +6,7 @@
 * https://www.zend.com/topics/Zend-Debugger-Installation-Guide.pdf
 * http://www.eclipse.org/pdt/articles/debugger/os-php-eclipse-pdt-debug-pdf.pdf
 * http://www.eclipse.org/pdt/help/html/php_servers.htm#Adding_servers
+* http://stackoverflow.com/questions/29048869/where-can-i-get-dummy-php
 
 ##### Install Zend Debugger on the application server
 ```
