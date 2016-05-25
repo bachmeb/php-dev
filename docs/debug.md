@@ -1,4 +1,4 @@
-# php coding in eclipse
+# debug php
 
 ## References
 * http://www.eclipse.org/pdt/help/html/troubleshooting_remote_debugging.htm
