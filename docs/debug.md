@@ -12,7 +12,7 @@ sudo yum install php-ZendFramework2-Debug
 ```
 
 ##### Install PDT on your local machine
-* [/docs/pdt](/docs/pdt)
+* [/docs/pdt](/docs/pdt.md)
 
 ##### Ensure the machine on which your PDT is installed is an allowed host for your debugger. 
 See Setting your PDT to be an Allowed Host for more information.
