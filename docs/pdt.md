@@ -19,6 +19,10 @@
       * Name: Zend
       * Location: http://downloads.zend.com/pdt
       * Click OK
+
+##### Install Zend Debugger
+* Help
+  * Install New Software
     * Work with: Zend
     * Select available software
       * Name: Zend CE Features
@@ -27,5 +31,4 @@
     * Click Next
     * Agree to license terms
     * Click Finish
-
-Restart Eclipse
+    * Restart Eclipse
