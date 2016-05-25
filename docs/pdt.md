@@ -11,3 +11,21 @@
 
 ##### Extract eclipse-php-mars-R-win32-x86_64.zip
 * Use 7-Zip on Windows
+ 
+##### Add Zend to Available Software Sites
+* Help
+  * Install New Software
+    * Click Add
+      * Name: Zend
+      * Location: http://downloads.zend.com/pdt
+      * Click OK
+    * Work with: Zend
+    * Select available software
+      * Name: Zend CE Features
+        * Zend Debugger Feature
+    * Click Next
+    * Click Next
+    * Agree to license terms
+    * Click Finish
+
+Restart Eclipse
