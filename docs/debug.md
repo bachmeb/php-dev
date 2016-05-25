@@ -79,7 +79,7 @@ sudo /sbin/service httpd restart
   * Path Mapping
   * Click Finish
 
-##### Ensure the correct settings are configured in your Debug Preferences and Installed Debuggers Preferences pages.
+##### Confirm the settings in PHP Debug Preferences
 * Window > Preferences > PHP > Debug
  * PHP Server: pick one
  * Debugger: Zend debugger
@@ -90,5 +90,20 @@ sudo /sbin/service httpd restart
  * Break at First Line: YES
  * Click OK
 
-##### Ensure you have a dummy.php file in your remote server's document root.
+##### Confirm the settings in PHP Installed Debuggers
+* Window > Preferences > PHP > Debug > Debuggers
+ * Select Zend Debugger
+ * Click Configure
+  * Client Host/IP: Auto
+  * Debug Port: 10137
+  * Debug Response Timeout (ms): 60000
+  * Broadcast Port: 20080
+  * Dummy File Name: dummy.php
+
+##### Create dummy.php in the document root of the web server
+```
+cat /etc/httpd/conf/httpd.conf | grep DocumentRoot
+cd /var/www/html
+touch dummy.php
+```
 
