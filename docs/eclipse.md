@@ -6,8 +6,11 @@
 ##### 
 
 
-##### Ensure the Zend Debugger is installed on your server.
-The Zend Debugger comes bundled with Zend Server, Zend Core and Zend Platform, but can also be downloaded as a separate component from http://www.zend.com/en/products/studio/downloads.
+##### Install Zend Debugger on the application server
+```
+sudo yum install php-ZendFramework2-Debug
+```
+
 ##### Ensure the machine on which your PDT is installed is an allowed host for your debugger. 
 See Setting your PDT to be an Allowed Host for more information.
 ##### In PDT , configure your server according to the instructions under Adding Servers in the PHP Servers Preferences.
