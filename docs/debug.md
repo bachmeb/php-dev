@@ -5,6 +5,7 @@
 * http://www.eclipse.org/pdt/help/html/setting_your_zend_studio_for_eclipse_to_be_an_allowed_host.htm
 * https://www.zend.com/topics/Zend-Debugger-Installation-Guide.pdf
 * http://www.eclipse.org/pdt/articles/debugger/os-php-eclipse-pdt-debug-pdf.pdf
+* http://www.eclipse.org/pdt/help/html/php_servers.htm#Adding_servers
 
 ##### Install Zend Debugger on the application server
 ```
@@ -63,8 +64,31 @@ sudo /sbin/service httpd status
 sudo /sbin/service httpd restart
 ```
 
+##### Add a PHP server in Eclipse
+* Window > Preferences > PHP > Servers
+ * Click New
+  * Server Name: Whatever
+  * Base URL: http://[web server address]
+  * Document Root: 
+  * Click Next
+  * Debugger: Zend Debugger
+  * Client IP(s)/Host: [auto-populated]
+  * Port: 10137
+  * Response Timeout (ms): 60000
+  * Click Next
+  * Path Mapping
+  * Click Finish
 
-##### In PDT , configure your server according to the instructions under Adding Servers in the PHP Servers Preferences.
 ##### Ensure the correct settings are configured in your Debug Preferences and Installed Debuggers Preferences pages.
+* Window > Preferences > PHP > Debug
+ * PHP Server: pick one
+ * Debugger: Zend debugger
+ * CLI Settings: None Defined
+ * Debugger: None Defined
+ * Debug Transfer Encoding: UTF-8
+ * Debug Output Encoding: UTF-8
+ * Break at First Line: YES
+ * Click OK
+
 ##### Ensure you have a dummy.php file in your remote server's document root.
 
