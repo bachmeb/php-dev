@@ -1,7 +1,10 @@
 # pdt
 
+Eclipse 4.3 (Kepler) runs on JRE 1.6
+
 ## References
 * https://wiki.eclipse.org/PDT/Installation
+* https://wiki.eclipse.org/Eclipse/Installation
 
 ##### Install JDK
 * https://github.com/bachmeb/java-jdk
