@@ -1,16 +1,22 @@
 # pdt
 
-Eclipse 4.3 (Kepler) runs on JRE 1.6
+
 
 ## References
 * https://wiki.eclipse.org/PDT/Installation
 * https://wiki.eclipse.org/Eclipse/Installation
+* https://eclipse.org/pdt/
 
 ##### Install JDK
 * https://github.com/bachmeb/java-jdk
 
-##### Download Mars
-* https://www.eclipse.org/downloads/packages/eclipse-php-developers/marsr
+##### Download the version of Eclipse that works with your JRE
+* Eclipse 4.2.2 (Junu) runs on JRE 1.6
+  * https://wiki.eclipse.org/PDT/Installation#Eclipse_4.2_.2F_Juno_.2F_PDT_3.1.1
+  * http://archive.eclipse.org/eclipse/downloads/drops4/R-4.2.2-201302041200/linPlatform.php#EclipseSDK
+  
+* Mars runs on JRE 1.7
+  * https://www.eclipse.org/downloads/packages/eclipse-php-developers/marsr
 
 ##### Extract eclipse-php-mars-R-win32-x86_64.zip
 * Use 7-Zip on Windows
