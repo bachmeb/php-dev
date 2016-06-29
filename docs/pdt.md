@@ -12,6 +12,7 @@
 
 ##### Download the version of Eclipse that works with your JRE
 * Eclipse 4.2.2 (Junu) runs on JRE 1.6
+  * http://www.eclipse.org/juno/
   * https://wiki.eclipse.org/PDT/Installation#Eclipse_4.2_.2F_Juno_.2F_PDT_3.1.1
   * http://archive.eclipse.org/eclipse/downloads/drops4/R-4.2.2-201302041200/linPlatform.php#EclipseSDK
   
