@@ -18,6 +18,7 @@
   
 * Mars runs on JRE 1.7
   * https://www.eclipse.org/downloads/packages/eclipse-php-developers/marsr
+  * http://www.eclipse.org/mars/
 
 ##### Extract eclipse-php-mars-R-win32-x86_64.zip
 * Use 7-Zip on Windows
