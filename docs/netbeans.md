@@ -9,8 +9,22 @@
 
 ##### Download Netbeans
 ###### 7.3
-* The Java SE Development Kit (JDK) 6 Update 26 (or later) or JDK 7 Update 10 (or later) is required to install the NetBeans IDE 7.4 (https://netbeans.org/community/releases/73/install.html)
+The Java SE Development Kit (JDK) 6 Update 26 (or later) or JDK 7 Update 10 (or later) is required to install the NetBeans IDE 7.4 
 * https://netbeans.org/downloads/7.3/index.html
 * NetBeans 7.3 PHP Installer for Linux/English (en)
 * netbeans-7.3-php-linux.sh (51.7 MB)
 
+##### Make the installer executable
+```
+chmod +x netbeans-7.3-php-linux.sh 
+```
+##### Run the installer
+```
+./netbeans-7.3-php-linux.sh 
+```
+```
+Configuring the installer...
+Searching for JVM on the system...
+Extracting installation data...
+Running the installer wizard...
+```
